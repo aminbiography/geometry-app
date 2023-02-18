@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Geometry Genious</title>
+    <link rel="stylesheet" href="style/genious.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+</head>
+    </head>
+    <body>
+
+ <!-- navigate section with functional button  -->
+
+        <nav class="navbar">
+            <div class="navbar-int">
+              <h1 class="gi">Interactive</h1>
+                 <h3 class="gg">Geometry Genious</h3>
+            </div>
+            <div class="navbar-bu">
+              <button class="btn-bl" onclick="window.location.href='blog.html'">Blog</button>
+            </div>
+          </nav>
+
+<!-- upper three functional input sections  -->
+
+          <div class="container">
+           
+          <div class="one">
+            <div class="im">
+            <img src="images/triangle.png" alt="triangle" width="250" height="200">
+          </div>
+            <div>
+            <h1>Triangle</h1>
+            <p>Area (A) = 0.5 x b x h</p>
+            <input id ="input01a" type="text" placeholder="b">cm
+            <input id = "input02a" type="text" placeholder="h">cm
+            <button id ="btn-01a">Calculate</button>
+          </div>
+          </div>
+
+          <div class="two">
+            <div class="im">
+            <img src="images/rectangle.png" alt="rectangle" width="250" height="200">
+          </div>
+            <div>
+            <h1>Rectangle</h1>
+            <p>Area (A) = w x i</p>
+            <input id ="input01b" type="text" placeholder="w">cm
+            <input id = "input02b" type="text" placeholder="i">cm
+            <button id ="btn-01b">Calculate</button>
+          </div>
+          </div>
+
+          <div class="three">
+            <div class="im">
+            <img src="images/parallelogram.png" alt="parallelogram" width="250" height="200">
+            </div>
+            <div>
+            <h1>Parallelogram</h1>
+            <p>Area (A) = b x h</p>
+            <input id ="input01c" type="text" placeholder="b">cm
+            <input id = "input02c" type="text" placeholder="h">cm
+            <button id ="btn-01c">Calculate</button>
+          </div>
+          </div>
+
+<!-- functional output sections  -->
+
+
+          <div class="four">
+            <div>
+              <h1>Area Calculation</h1>
+              <p>---------------------------------------------<p>
+            </div>
+          <div class ="four-1">
+              <div>
+              1.Triangle
+              </div>
+              <div>
+              <input id ="output01a" type="text" placeholder="00 cm2">
+              </div>
+              <div>
+              <button class="btn-d">Convert to m2</button>
+              </div>
+            </div>
+            <div class ="four-1">
+              <div>
+              2.Rectangle  
+              </div>
+              <div>
+              <input id ="output01b" type="text" placeholder="00 cm2">
+              </div>
+              <div>
+              <button class="btn-d">Convert to m2</button>
+              </div>
+            </div>
+            <div class ="four-1">
+              <div>
+              3.Parallelogram
+              </div>
+              <div>
+              <input id ="output01c" type="text" placeholder="00 cm2">
+              </div>
+              <div>
+              <button class="btn-d">Convert to m2</button>
+              </div>
+            </div>
+            <div class ="four-1">
+              <div>
+              4.Rhombus
+              </div>
+              <div>
+              <input id ="output01d" type="text" placeholder="00 cm2">
+              </div>
+              <div>
+              <button class="btn-d">Convert to m2</button>
+              </div>
+            </div>
+            <div class ="four-1">
+              <div>
+              5.Pentagon
+              </div>
+              <div>
+              <input id ="output01e" type="text" placeholder="00 cm2">
+              </div>
+              <div>
+              <button class="btn-d">Convert to m2</button>
+              </div>
+            </div>
+            <div class ="four-1">
+              <div>
+              6.Ellipse
+              </div>
+              <div>
+              <input id ="output01f" type="text" placeholder="00 cm2">
+              </div>
+              <div>
+              <button class="btn-d">Convert to m2</button>
+              </div>
+            </div>
+          </div>
+           
+         
+<!-- lower three functional input sections  -->
+        
+          <div class="five">
+            <div class="im">
+            <img src="images/rhombus.png" alt="rhombus" width="250" height="200">
+            </div>
+            <div>
+            <h1>Rhombus</h1>
+            <p>Area (A) = 0.5 x d1 x d2</p>
+            <input id ="input01d" type="text" placeholder="d1">cm
+            <input id = "input02d" type="text" placeholder="d2">cm
+            <button id ="btn-01d">Calculate</button>
+          </div>
+          </div>
+
+          <div class="six">
+            <div class="im">
+            <img src="images/pentagon.png" alt="pentagon" width="200" height="200">
+            </div>
+            <div>
+            <h1>Pentagon</h1>
+            <p>Area (A) = 0.5 x p x b</p>
+            <input id ="input01e" type="text" placeholder="p">cm
+            <input id = "input02e" type="text" placeholder="b">cm
+            <button id ="btn-01e">Calculate</button>
+          </div>
+          </div>
+
+          <div class="seven">
+            <div class="im">
+            <img src="images/ellipse.png" alt="ellipse" width="300" height="200">
+            </div>
+            <div>
+            <h1>Ellipse</h1>
+            <p>Area (A) = <img src="images/pi.png" alt="" width="10" height="10">  ab</p>
+            <input id ="input01f" type="text" placeholder="a">cm
+            <input id = "input02f" type="text" placeholder="b">cm
+            <button id ="btn-01f">Calculate</button>
+          </div>
+          </div>
+
+          <div class="eight">
+            <img src="images/" alt="">
+            <div>
+            </div>
+          </div>
+        </div>
+     
+     
+ 
+    <!-- js link  -->
+     
+        <script src="js/genious.js"></script>
+</body>
+</html>"# Module30" 

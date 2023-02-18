@@ -1,0 +1,339 @@
+/* navbar for home page  */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b0e8fa;
+  padding: 10px 20px;
+  margin: 40px 100px;
+}
+
+.navbar-int {
+  flex: 1;
+}
+
+.gi{
+  font-size: xx-large;
+  font-weight: 900;
+}
+
+.gg{
+  font-size: large;
+  font-weight: 700;
+  color: #747171;
+}
+
+.navbar-int h1 {
+  margin: 0;
+}
+
+.navbar-bu {
+  flex: 0;
+}
+
+.btn-bl {
+  background-color: #3b96f8;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn-bl:hover {
+  background-color: #74dcff;
+  color: #fff;
+}
+
+/* home page body main part  */
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 300px;
+  height: 800px;
+  row-gap: 30px;
+  column-gap: 30px;
+  margin: 0px 100px 300px 100px;
+  padding: 0px;
+}
+
+.btn-c{
+  background-color: #3b96f8;
+  color: #fff;
+  padding: 10px 80px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-c:hover {
+    background-color: #74dcff;
+    color: #fff;
+}
+
+#btn-01a{
+  background-color: #3b96f8;
+  color: #fff;
+  padding: 10px 80px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#btn-01a:hover {
+    background-color: #74dcff;
+    color: #fff;
+}
+
+#btn-01b{
+  background-color: #3b96f8;
+  color: #fff;
+  padding: 10px 80px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#btn-01b:hover {
+    background-color: #74dcff;
+    color: #fff;
+}
+
+#btn-01c{
+  background-color: #3b96f8;
+  color: #fff;
+  padding: 10px 80px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#btn-01c:hover {
+    background-color: #74dcff;
+    color: #fff;
+}
+
+#btn-01d{
+  background-color: #3b96f8;
+  color: #fff;
+  padding: 10px 80px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#btn-01d:hover {
+    background-color: #74dcff;
+    color: #fff;
+}
+
+#btn-01e{
+  background-color: #3b96f8;
+  color: #fff;
+  padding: 10px 80px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#btn-01e:hover {
+    background-color: #74dcff;
+    color: #fff;
+}
+
+#btn-01f{
+  background-color: #3b96f8;
+  color: #fff;
+  padding: 10px 80px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#btn-01f:hover {
+    background-color: #74dcff;
+    color: #fff;
+}
+
+
+.im{
+  margin: 30px 20px;
+}
+
+/*  section direction  */
+
+.one{
+  text-align: center;
+  background-color:#b0e8fa;
+}
+
+.two{
+  text-align: center;
+  background-color:#b0e8fa;
+}
+
+.three{
+  text-align: center;
+  background-color:#b0e8fa;
+}
+
+.four{
+  text-align: center;
+  background-color:#FFFFFF;
+}
+
+.five{
+  text-align: center;
+  background-color:#b0e8fa;
+}
+
+.six{
+  text-align: center;
+  background-color:#b0e8fa;
+}
+
+.seven{
+  text-align: center;
+  background-color:#b0e8fa;
+}
+
+.eight{
+  text-align: center;
+}
+
+/* functional input area  */
+
+#input01a{
+  width: 70px;
+  margin: 10px 10px;
+}
+
+#input02a{
+  width: 70px;
+  margin: 10px 10px;
+}
+
+#input01b{
+  width: 70px;
+  margin: 10px 10px;
+}
+
+#input02b{
+  width: 70px;
+  margin: 10px 10px;
+}
+
+#input01c{
+  width: 70px;
+  margin: 10px 10px;
+}
+
+#input02c{
+  width: 70px;
+  margin: 10px 10px;
+}
+
+#input01d{
+  width: 70px;
+  margin: 10px 10px;
+}
+
+#input02d{
+  width: 70px;
+  margin: 10px 10px;
+}
+
+#input01e{
+  width: 70px;
+  margin: 10px 10px;
+}
+
+#input02e{
+  width: 70px;
+  margin: 10px 10px;
+}
+
+#input01f{
+  width: 70px;
+  margin: 10px 10px;
+}
+
+#input02f{
+  width: 70px;
+  margin: 10px 10px;
+}
+
+.four-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* functional output area  */
+
+#output01a{
+  width: 70px;
+  margin: 20px 20px ;
+}
+
+#output01b{
+  width: 70px;
+  margin: 20px 20px ;
+}
+
+#output01c{
+  width: 70px;
+  margin: 20px 20px ;
+}
+
+#output01d{
+  width: 70px;
+  margin: 20px 20px ;
+}
+
+#output01e{
+  width: 70px;
+  margin: 20px 20px ;
+}
+
+#output01f{
+  width: 70px;
+  margin: 20px 20px ;
+}
+
+/* non functional convert butttons */
+
+.btn-d{
+  background-color: #3b96f8;
+  color: #fff;
+  padding: 10px 20px;
+  margin: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.btn-d:hover {
+    background-color: #74dcff;
+    color: #fff;
+}
+
+
+
